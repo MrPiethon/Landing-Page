@@ -102,3 +102,53 @@ p {
   gap: 24px;
   justify-content: center;
 }
+
+.info-card img {
+  border-radius: 5%;
+}
+
+.info-card p {
+  text-align: center;
+  width: 150px;
+}
+
+.quote-source {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quote-source::before {
+  content: "-";
+}
+
+#quote {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--quote-bg-color);
+  font-size: var(--quote-font-size);
+  color: var(--quote-font-color);
+  text-decoration: var(--quote-text-decoration);
+}
+
+#cta {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-banner {
+  display: flex;
+  background: var(--cta-bg-color);
+  justify-content: space-between;
+  padding: 25px 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 25px;
+}
